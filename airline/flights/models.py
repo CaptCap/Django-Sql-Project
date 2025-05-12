@@ -1,7 +1,5 @@
 from django.db import models
 
-from airline.flights.views import flight
-
 # Create your models here.
 class Airport(models.Model):
     code = models.CharField(max_length=3)
